@@ -10,7 +10,7 @@ dotenv.config()
 const app = express()
 app.use(express.json());
 
-// routes
+// make routes
 app.use('/api/products',productRoute);
 
 app.listen(3000,() => {
